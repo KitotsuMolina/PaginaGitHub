@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/PaginaGitHub/static/css/main.e6c13ad2.css",
+    "main.js": "/PaginaGitHub/static/js/main.6be929fe.js",
+    "static/js/787.d468ac15.chunk.js": "/PaginaGitHub/static/js/787.d468ac15.chunk.js",
+    "index.html": "/PaginaGitHub/index.html",
+    "main.e6c13ad2.css.map": "/PaginaGitHub/static/css/main.e6c13ad2.css.map",
+    "main.6be929fe.js.map": "/PaginaGitHub/static/js/main.6be929fe.js.map",
+    "787.d468ac15.chunk.js.map": "/PaginaGitHub/static/js/787.d468ac15.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.6be929fe.js"
+  ]
+}
