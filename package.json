@@ -1,5 +1,5 @@
 {
-  "homepage": "https://kitotsumolina.github.io/PaginaGitHub/",
+  "homepage": "https://kitotsumolina.github.io/PaginaGitHub",
   "name": "Pagina_GitHub",
   "version": "0.1.0",
   "private": true,
@@ -15,10 +15,10 @@
     "bootstrap": "5.1.3",
     "gh-pages": "^3.2.3",
     "node-sass": "^7.0.1",
+    "primeflex": "^3.1.3",
     "primeicons": "^5.0.0",
     "primereact": "^7.2.0",
     "react": "^17.0.2",
-    "react-bootstrap": "^2.1.1",
     "react-dom": "^17.0.2",
     "react-hook-form": "^7.24.2",
     "react-redux": "^7.2.6",
