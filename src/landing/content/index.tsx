@@ -101,7 +101,7 @@ const Content = () => {
                                 </Card.Body>
                             </Card>
                         </Col>
-                        <Col sm={12} md={12} lg={6}>
+                        <Col sm={12} md={12} lg={6} id={'skills'}>
                             <Card className={'card-tabla'}>
                                 <Card.Body>
                                     <h1>Frontend Skills</h1>
