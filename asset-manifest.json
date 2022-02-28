@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/PaginaGitHub/static/css/main.42c8563f.css",
+    "main.css": "/PaginaGitHub/static/css/main.9b7c6ad6.css",
     "main.js": "/PaginaGitHub/static/js/main.679e1c24.js",
     "static/js/787.d468ac15.chunk.js": "/PaginaGitHub/static/js/787.d468ac15.chunk.js",
     "static/media/header-img.jpg": "/PaginaGitHub/static/media/header-img.425639611935b8a5aace.jpg",
@@ -10,12 +10,12 @@
     "static/media/primeicons.ttf": "/PaginaGitHub/static/media/primeicons.91bacab1f083f2795272.ttf",
     "static/media/img-perfil.jpg": "/PaginaGitHub/static/media/img-perfil.7ed5405e7f8370784a90.jpg",
     "index.html": "/PaginaGitHub/index.html",
-    "main.42c8563f.css.map": "/PaginaGitHub/static/css/main.42c8563f.css.map",
+    "main.9b7c6ad6.css.map": "/PaginaGitHub/static/css/main.9b7c6ad6.css.map",
     "main.679e1c24.js.map": "/PaginaGitHub/static/js/main.679e1c24.js.map",
     "787.d468ac15.chunk.js.map": "/PaginaGitHub/static/js/787.d468ac15.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.42c8563f.css",
+    "static/css/main.9b7c6ad6.css",
     "static/js/main.679e1c24.js"
   ]
 }
