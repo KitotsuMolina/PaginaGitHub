@@ -19,9 +19,6 @@ const Landing = () => {
                     <Col md={12} style={{height: 'max-content'}}>
                         <Content/>
                     </Col>
-                    <Col md={12}>
-                        <Footer/>
-                    </Col>
                 </Row>
         </>
     )

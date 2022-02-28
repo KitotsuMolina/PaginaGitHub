@@ -40,3 +40,16 @@
     text-align: justify;
   }
 }
+
+.logo-sena{
+  background-image: url('../../resources/Sena_Logo.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  top: 7em;
+  left: 9em;
+  opacity: .4;
+  z-index: -1;
+}

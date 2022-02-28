@@ -61,8 +61,7 @@ const NavPage = (props:any) => {
     const links:Array<LinksList> = [
         {id: 1, name: 'Home', href: 'home'},
         {id: 2, name: 'Perfil Profesional', href: 'perfil_profesional'},
-        {id: 4, name: 'Skills', href: 'skills'},
-        {id: 3, name: 'Proyectos', href: 'proyectos'},
+        {id: 3, name: 'Skills', href: 'skills'},
         {id: 4, name: 'Estudios', href: 'estudios'},
     ]
     const onCLickRedirect = (link: string) =>{

@@ -1,5 +1,5 @@
 import React from 'react';
-import {Card, Col, Row, Table} from "react-bootstrap";
+import {Card, Col, Row, Table, Accordion} from "react-bootstrap";
 import { Rating } from 'primereact/rating';
 const Content = () => {
 
@@ -190,11 +190,77 @@ const Content = () => {
                         </Col>
                     </Row>
                 </Col>
-                <Col md={12} id={'proyectos'} style={{height: '100vh'}}>
-                    <h1>Proyectos</h1>
-                </Col>
-                <Col md={12} id={'estudios'} style={{height: '100vh'}}>
+                <Col md={12} id={'estudios'} style={{height: 'max-content', padding: '2em', textAlign: 'center'}}>
                     <h1>Estudios</h1>
+                    <Accordion defaultActiveKey="0" style={{textAlign: 'left',backgroundColor: 'transparent'}}>
+                        <Accordion.Item eventKey="0" style={{backgroundColor: 'transparent'}}>
+                            <Accordion.Header>Técnico en Programación - Servicio
+                                Nacional de Aprendizaje (SENA)</Accordion.Header>
+                            <Accordion.Body style={{position: 'relative', backgroundColor: 'transparent' }}>
+                                <h3>Competencias</h3>
+                                <div className={'logo-sena'} >
+
+                                </div>
+                                <ul>
+                                    <li>Construir el map de navegación de acuerdo con el
+                                        diseño entregado para orientar al usuario en el uso del
+                                        aplicativo.</li>
+                                    <li>Construir la matriz CRUD en el lenguaje de
+                                        programación seleccionado para verificar la
+                                        funcionalidad del sistema de acuerdo con el diseño
+                                        entregado.</li>
+                                    <li>Construir las tablas que hacen parte del diseño del
+                                        diagrama, relacionar en el motor de base de datos
+                                        empleando las 4 formas de normalización.</li>
+                                    <li>Relacionar tablas construidas para presentar la
+                                        información solicitada en el diseño</li>
+                                    <li>Analizar los requisitos del cliente para construir el
+                                        sistema de formación</li>
+                                    <li>Promover la interacción idónea consigo mismo con los
+                                        demás y con la naturaleza en los contextos laboral y
+                                        social.</li>
+                                    <li>Comprender textos en inglés de forma escrita y auditiva.</li>
+                                    <li>Realizar intercambios sociales y prácticos muy breves con
+                                        un vocabulario muy breve para realizar una exposición o
+                                        mantener una conversación sencilla</li>
+                                </ul>
+                            </Accordion.Body>
+                        </Accordion.Item>
+                        <Accordion.Item eventKey="1" style={{backgroundColor: 'transparent'}}>
+                            <Accordion.Header>Tecnología Análisis y Desarrollo de
+                                Sistemas de la Información -
+                                Servicio Nacional de Aprendizaje
+                                (SENA)</Accordion.Header>
+                            <Accordion.Body style={{position: 'relative', backgroundColor: 'transparent' }}>
+                                <h3>Competencias</h3>
+                                <div className={'logo-sena'} >
+
+                                </div>
+                                <ul>
+                                    <li>Especificar los requisitos necesarios para desarrollar el
+                                        sistema de información de acuerdo con las necesidades
+                                        del cliente.</li>
+                                    <li>Construir el sistema que cumpla con los requisitos de la
+                                        solución • Participar en el proceso de negociación de
+                                        tecnología informática para permitir la implementación
+                                        del sistema de información.</li>
+                                    <li>Analizar los requisitos del cliente para construir el
+                                        sistema de información.</li>
+                                    <li>Diseñar el sistema de acuerdo con los requisitos del
+                                        cliente.</li>
+                                    <li>Implantar la solución que cumpla con los requisitos para
+                                        su operación.</li>
+                                    <li>Aplicar buenas prácticas de calidad en el proceso de
+                                        desarrollo de software, de acuerdo con el referente
+                                        adoptado en la empresa.</li>
+                                    <li>Ejecuta el proceso integral (análisis, diseño,
+                                        implementación, pruebas y ajustes) de generación de
+                                        sistemas de información, para la sitematización o
+                                        automatización de procesos.</li>
+                                </ul>
+                            </Accordion.Body>
+                        </Accordion.Item>
+                    </Accordion>
                 </Col>
             </Row>
         </>
