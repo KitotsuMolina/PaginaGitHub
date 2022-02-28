@@ -1,0 +1,216 @@
+@import "compass-sass-mixins/lib/compass";
+@import "compass-sass-mixins/lib/animate";
+.color-check{
+  &-enable{
+    @include animation(IconMenuEnable 1s forwards);
+  }
+  &-disabled{
+    @include animation(IconMenuDisabled 1s forwards);
+  }
+}
+
+.menu-bar{
+  z-index: 1;
+  height:7em;
+  width:100%;
+  position:fixed;
+  top:0;
+  left:0;
+  transition:all 400ms;
+
+  &--scroll-down{
+    transform: translateY(-100%);
+    opacity:0;
+  }
+  &--scroll-up{
+    top:0;
+    background-color: $BLACK;
+    opacity: 1;
+  }
+  &-enable{
+    background-color: transparent !important;
+  }
+
+  .row{
+    align-items: center;
+    justify-content: center;
+
+    div[class^="col"]{
+      text-align: center;
+      .menu{
+        margin: 0 auto;
+        border-radius: .4em;
+        width: min-content;
+        padding: .4em;
+        top: 1em;
+        left: 1em;
+        z-index: 3;
+        position:absolute;
+        &--scroll-up, &--scroll-down{
+          top:1.8em !important;
+          border: 1px solid $WHITE !important;
+        }
+
+        &-enable{
+          @include animation(ContainerIconMenuEnable 1s forwards);
+
+        }
+        &-disabled{
+          @include animation(ContainerIconMenuDisabled 1s forwards);
+        }
+
+        .color-check{
+          &--scroll-up, &--scroll-down{
+            color: $WHITE !important;
+          }
+          &-enable{
+            @include animation(IconMenuEnable 1s forwards);
+          }
+          &-disabled{
+            @include animation(IconMenuDisabled 1s forwards);
+          }
+        }
+      }
+      .title-menu{
+        transition:all 400ms;
+        &-enable{
+          color: $WHITE;
+          font-family: 'Oswald', sans-serif;
+          font-style: italic;
+          font-weight: 700;
+        }
+        &-disabled{
+          color: transparent;
+        }
+      }
+      .img-perfil{
+        &-enable{
+          position:absolute;
+          top:0;
+          margin: 0 auto;
+          background-image: url("../../resources/img-perfil.jpg");
+          background-repeat: no-repeat;
+          background-size: 92% 97%;
+          background-position: 0em 0em;
+          width: 9em;
+          height: 7em;
+          clip-path: circle(40% at 50% 50%);
+        }
+        &-disabled{
+          display: none;
+        }
+      }
+  }
+
+  }
+}
+
+
+
+.menu-container{
+  background-color: $BLACK;
+  height: 100%;
+  width: calc(100% / 2);
+  overflow: hidden;
+  padding-top: 17em;
+  padding-bottom: 17em;
+  .row{
+      height: 100%;
+      width:100%;
+      align-items: center;
+      justify-content: center;
+
+      div[class^="col"]{
+        text-align: center;
+        font-size:2em;
+        font-family: 'Oswald', sans-serif;
+        font-style: italic;
+        font-weight: 600;
+        &:hover{
+          cursor: pointer;
+          color: $BLUE2;
+        }
+
+      }
+
+   }
+
+}
+
+.menu-hidden{
+  z-index: 2;
+  position: absolute;
+  height: 100vh;
+  top: 0;
+
+  &-disabled{
+    @include animation(NavHiddeDisabled .5s forwards);
+  }
+  &-enable{
+    @include animation(NavHiddeEnable .5s forwards)
+  }
+}
+
+
+@include keyframes(NavHiddeEnable){
+  from{
+
+    color: $BLACK;
+    width: 0px;
+    background-color: rgba($BLACK, 0);
+  }
+  to{
+    color: $WHITE;
+    width: calc(100vw);
+    background-color: rgba($BLACK, .9);
+  }
+}
+@include keyframes(NavHiddeDisabled){
+  from{
+    color: $WHITE;
+    width: calc(100vw);
+    background-color: rgba($BLACK, .9);
+  }
+  to{
+    color: $BLACK;
+    width: 0px;
+    background-color: rgba($BLACK, 0);
+  }
+}
+
+@include keyframes(IconMenuEnable){
+  from{
+    color:$BLACK;
+    transform:rotate(0deg);
+  }
+  to{
+    color:$WHITE;
+    transform:rotate(180deg);
+  }
+}
+@include keyframes(IconMenuDisabled){
+  from{
+    color:$WHITE;
+    transform:rotate(180deg);
+  }
+  to{
+    color:$BLACK;
+    transform:rotate(0deg);
+  }
+}
+@include keyframes(ContainerIconMenuDisabled){
+  from{
+    border: 1px solid $WHITE;
+  }
+  to{
+    border: 1px solid $BLACK;
+  }
+}
+@include keyframes(ContainerIconMenuEnable){
+  from{
+    border: 1px solid $BLACK;
+  }
+  to{
+    border: 1px solid $WHITE;
+  }
+}

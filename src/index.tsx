@@ -1,13 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './app/App';
+import App from 'app/App';
 import reportWebVitals from './reportWebVitals';
-
+import {Provider} from "react-redux";
+import generateStore from "redux/store/store";
+import "primeicons/primeicons.css"
+import "primereact/resources/themes/mdc-light-indigo/theme.css"
+import "styles/scss/Main.sass"
+const store = generateStore();
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+        <React.StrictMode>
+            <Provider store={store}>
+                <App />
+            </Provider>
+        </React.StrictMode>,
   document.getElementById('root')
 );
 
