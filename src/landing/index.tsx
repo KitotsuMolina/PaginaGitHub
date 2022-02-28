@@ -13,10 +13,10 @@ const Landing = () => {
     return (
         <>
                 <Row style={{height:'max-content', width:'100vw'}}>
-                    <Col md={12} >
+                    <Col md={12} id={'home'}>
                         <Header switchClass={switchClass}/>
                     </Col>
-                    <Col md={12} style={{height: '100vh'}}>
+                    <Col md={12} style={{height: 'max-content'}}>
                         <Content/>
                     </Col>
                     <Col md={12}>

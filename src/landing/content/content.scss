@@ -1,0 +1,41 @@
+.perfil_profesional{
+
+}
+
+.card{
+  text-align: center;
+
+  &-perfil_profesional{
+    margin: 1em auto;
+    -webkit-box-shadow: 1px 3px 16px -5px rgba(0,0,0,0.76);
+    box-shadow: 1px 3px 16px -5px rgba(0,0,0,0.76);
+  }
+  &-datos_contacto{
+    margin: 1em auto;
+    -webkit-box-shadow: 1px 3px 16px -5px rgba(0,0,0,0.76);
+    box-shadow: 1px 3px 16px -5px rgba(0,0,0,0.76);
+  }
+  &-habilidades{
+    margin: 1em auto;
+    -webkit-box-shadow: 1px 3px 16px -5px rgba(0,0,0,0.76);
+    box-shadow: 1px 3px 16px -5px rgba(0,0,0,0.76);
+    padding-right:1.8em;
+  }
+  &-tabla{
+    margin: 1em auto;
+    width: 100%;
+  }
+  ul{
+    text-align: left;
+    li{
+      list-style:none;
+      i{
+        margin: .5em;
+        font-size: 1.3em;
+      }
+    }
+  }
+  &-text{
+    text-align: justify;
+  }
+}

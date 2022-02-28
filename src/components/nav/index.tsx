@@ -65,13 +65,20 @@ const NavPage = (props:any) => {
     }
 
     const links:Array<LinksList> = [
-        {id: 1, name: 'Home', href: '#'},
+        {id: 1, name: 'Home', href: 'home'},
         {id: 2, name: 'Perfil Profesional', href: 'perfil_profesional'},
         {id: 3, name: 'Proyectos', href: 'proyectos'},
         {id: 4, name: 'Estudios', href: 'estudios'},
     ]
     const onCLickRedirect = (link: string) =>{
         console.log(link)
+        const redirect: any = document.getElementById(link)
+        redirect.scrollIntoView(true);
+        setBooleanState(false);
+
+        if(link === 'home'){
+            setBooleanBarItemsState(false);
+        }
     }
 
     useEffect(()=>{
@@ -109,9 +116,6 @@ const NavPage = (props:any) => {
             }, 10)}
     },[booleanState])
 
-    const header = document.getElementById("menu-bar");
-
-
     return (
         <>
             <div id={"menu-bar"} className={classesMenuBar}>
@@ -128,7 +132,7 @@ const NavPage = (props:any) => {
                             <div className={classesImageTittle}/>
                     </Col>
                 </Row>
-                <div className={classesMenuHidden}>
+                <div className={classesMenuHidden} onClick={() =>{setBooleanState(false)}}>
                     <nav className={classesMenuContainer}>
                         <Row >
                             {links.map((value:LinksList)=>(

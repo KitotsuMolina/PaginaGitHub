@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import {Provider} from "react-redux";
 import generateStore from "redux/store/store";
 import "primeicons/primeicons.css"
-import "primereact/resources/themes/mdc-light-indigo/theme.css"
+import "primereact/resources/themes/bootstrap4-light-blue/theme.css"
 import "styles/scss/Main.sass"
 const store = generateStore();
 ReactDOM.render(
