@@ -110,6 +110,29 @@ const NavPage = (props:any) => {
             }, 10)}
     },[booleanState])
 
+    const logoBlackCat = (
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="500" height="500" viewBox="0 0 500 500" >
+            <desc>Created with Fabric.js 4.6.0</desc>
+            <defs>
+            </defs>
+            <g transform="matrix(0.93 0 0 0.93 202.41 103.93)" id="1rpsawUBaKTfHpf81bJWw">
+                <path style={{stroke: 'rgb(0,0,0)',strokeWidth: 23,strokeDasharray: 'none',strokeLinecap: 'butt',strokeDashoffset: 0,strokeLinejoin: 'miter',strokeMiterlimit: 4, fill: 'rgb(255,255,255)', fillOpacity: 0, fillRule: 'nonzero', opacity: 1}} vectorEffect="non-scaling-stroke" transform=" translate(0, 0)" d="M -6.27281 -36.47497 C -6.27281 -36.47497 12.896519999999999 0.26624000000000336 3.8443400000000008 36.47498" strokeLinecap="round"/>
+            </g>
+            <g transform="matrix(1.02 0 0 1.02 159.04 200.39)" id="UNptsW-2QCXyl_ZH8nC6D">
+                <path style={{stroke: 'rgb(0,0,0)',strokeWidth: 22,strokeDasharray: 'none',strokeLinecap: 'butt',strokeDashoffset: 0,strokeLinejoin: 'miter',strokeMiterlimit: 4, fill: 'rgb(255,255,255)', fillOpacity: 0, fillRule: 'nonzero', opacity: 1}} vectorEffect="non-scaling-stroke" transform=" translate(0, 0)" d="M 52.71565 -68.95634 L -7.454740000000001 -39.13737999999999 C -7.454740000000001 -39.13737999999999 4.259849999999998 -10.915869999999995 -2.6624100000000013 17.838130000000007 C -9.584670000000001 46.59212000000001 -28.22152 55.37807000000001 -28.22152 55.37807000000001 L -52.71566 68.95634000000001" strokeLinecap="round"/>
+            </g>
+            <g transform="matrix(1 0 0 1 151.16 298.72)" id="nlE5_j9qpIMfUbB5EKD57">
+                <path style={{stroke: 'rgb(0,0,0)',strokeWidth: 21,strokeDasharray: 'none',strokeLinecap: 'butt',strokeDashoffset: 0,strokeLinejoin: 'miter',strokeMiterlimit: 4, fill: 'rgb(255,255,255)', fillOpacity: 0, fillRule: 'nonzero', opacity: 1}} vectorEffect="non-scaling-stroke" transform=" translate(0, 0)" d="M -40.75106 -41.53355 C -18.386840000000003 29.28647 40.75106999999999 41.533539999999995 40.75106999999999 41.533539999999995" strokeLinecap="round"/>
+            </g>
+            <g transform="matrix(1 0 0 1 226.57 337.56)" id="NYLgXMX1g70b0On9OXY7R">
+                <path style={{stroke: 'rgb(0,0,0)',strokeWidth: 21,strokeDasharray: 'none',strokeLinecap: 'butt',strokeDashoffset: 0,strokeLinejoin: 'miter',strokeMiterlimit: 4, fill: 'rgb(255,255,255)', fillOpacity: 0, fillRule: 'nonzero', opacity: 1}} vectorEffect="non-scaling-stroke" transform=" translate(0, 0)" d="M -42.04318 0.51609 C 10.672469999999997 17.02301 42.04318 -6.4061699999999995 42.04318 -6.4061699999999995" strokeLinecap="round"/>
+            </g>
+            <g transform="matrix(1 0 0 1 291.52 256.92)" id="gSRVe5UNq6LmphKa99GwX">
+                <path style={{stroke: 'rgb(0,0,0)',strokeWidth: 23,strokeDasharray: 'none',strokeLinecap: 'butt',strokeDashoffset: 0,strokeLinejoin: 'miter',strokeMiterlimit: 4, fill: 'rgb(255,255,255)', fillOpacity: 0, fillRule: 'nonzero', opacity: 1}} vectorEffect="non-scaling-stroke" transform=" translate(0, 0)" d="M -103.81615 -191.95953 C 9.069900000000004 -179.71246 72.43518 -93.45048 72.43518 -92.918 C 72.43518 -92.38552 116.63113000000001 -35.41001000000001 100.12421 51.38444999999999 C 83.61729 138.17890999999997 37.823890000000006 156.81575999999998 37.823890000000006 156.81575999999998 C 37.823890000000006 156.81575999999998 0.5501900000000077 188.23216 -94.23149000000001 191.95952999999997" strokeLinecap="round"/>
+            </g>
+        </svg>
+    )
+
     return (
         <>
             <div id={"menu-bar"} className={classesMenuBar}>
@@ -134,6 +157,11 @@ const NavPage = (props:any) => {
                             ))}
                         </Row>
                     </nav>
+                    <div className={'logo'}>
+                        <div className={'hijo'}>
+                            {logoBlackCat}
+                        </div>
+                    </div>
                 </div>
             </div>
         </>

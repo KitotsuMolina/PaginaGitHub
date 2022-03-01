@@ -97,7 +97,11 @@
           width: 9em;
           height: 7em;
           clip-path: circle(40% at 50% 50%);
+          @media only screen  and (max-width: 767px)  {
+            display:none;
+          }
         }
+
         &-disabled{
           display: none;
         }
@@ -113,9 +117,15 @@
   background-color: $BLACK;
   height: 100%;
   width: calc(100% / 2);
+  @media only screen  and (max-width: 800px)  {
+    width: 100% ;
+  }
   overflow: hidden;
-  padding-top: 17em;
-  padding-bottom: 17em;
+  padding-top: 30vh;
+  padding-bottom: 30vh;
+  @media only screen  and (max-width: 800px)  {
+
+  }
   .row{
       height: 100%;
       width:100%;
@@ -139,11 +149,38 @@
 
 }
 
+.logo{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: calc(100%/2);
+  height: 100%;
+  padding:1em;
+  padding-bottom: 20vh;
+  padding-top: 20vh;
+  @media only screen  and (max-width: 800px)  {
+    display:none;
+  }
+  .hijo{
+    width:100%;
+    svg{
+      width:100%;
+      g{
+        path{
+          stroke: $WHITE !important;
+        }
+      }
+    }
+  }
+}
+
+
 .menu-hidden{
   z-index: 2;
   position: absolute;
   height: 100vh;
   top: 0;
+  overflow:hidden;
 
   &-disabled{
     @include animation(NavHiddeDisabled .5s forwards);

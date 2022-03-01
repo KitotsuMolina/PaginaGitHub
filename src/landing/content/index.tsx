@@ -41,7 +41,7 @@ const Content = () => {
                 <Col md={12} id={'perfil_profesional'} className={'perfil_profesional'} style={{height: 'max-content', padding: '2em'}}>
                     <Row>
                         <Col md={6} sm={12}>
-                            <Card style={{ width: '70%' }} className={'card-datos_contacto'}>
+                            <Card className={'card-datos_contacto'}>
                                 <Card.Body>
                                     <Card.Title>Datos Personales</Card.Title>
                                     <Card.Text>
@@ -61,7 +61,7 @@ const Content = () => {
                             </Card>
                         </Col>
                         <Col md={6} sm={12}>
-                            <Card style={{ width: '70%' }} className={'card-perfil_profesional'}>
+                            <Card  className={'card-perfil_profesional'}>
                                 <Card.Body>
                                     <Card.Title>Perfil Profesional</Card.Title>
                                     <Card.Text>
@@ -89,9 +89,9 @@ const Content = () => {
                                     <Card.Title>Habilidades</Card.Title>
                                     <Card.Text>
                                         <ul>
+                                            <li><i className={'pi pi-caret-right'}/>Gran rendimiento bajo presión</li>
                                             <li><i className={'pi pi-caret-right'}/>Excepcionales dotes comunicativas y compañerismo</li>
                                             <li><i className={'pi pi-caret-right'}/>Buen compañero y con capacidad de trabajo independiente</li>
-                                            <li><i className={'pi pi-caret-right'}/>Gran rendimiento bajo presión</li>
                                             <li><i className={'pi pi-caret-right'}/>Facilidad para seguir instrucciones y generar resultados de
                                                 calidad</li>
                                             <li><i className={'pi pi-caret-right'}/>Curva de aprendizaje muy corta, rápida absorción de
@@ -192,15 +192,15 @@ const Content = () => {
                 </Col>
                 <Col md={12} id={'estudios'} style={{height: 'max-content', padding: '2em', textAlign: 'center'}}>
                     <h1>Estudios</h1>
-                    <Accordion defaultActiveKey="0" style={{textAlign: 'left',backgroundColor: 'transparent'}}>
+                    <Accordion defaultActiveKey="0" style={{textAlign: 'left',backgroundColor: 'transparent', position: 'relative'}}>
+                        <div className={'logo-sena'} >
+                        </div>
                         <Accordion.Item eventKey="0" style={{backgroundColor: 'transparent'}}>
-                            <Accordion.Header>Técnico en Programación - Servicio
+                            <Accordion.Header style={{zIndex: '1'}}>Técnico en Programación - Servicio
                                 Nacional de Aprendizaje (SENA)</Accordion.Header>
                             <Accordion.Body style={{position: 'relative', backgroundColor: 'transparent' }}>
                                 <h3>Competencias</h3>
-                                <div className={'logo-sena'} >
 
-                                </div>
                                 <ul>
                                     <li>Construir el map de navegación de acuerdo con el
                                         diseño entregado para orientar al usuario en el uso del
@@ -227,15 +227,13 @@ const Content = () => {
                             </Accordion.Body>
                         </Accordion.Item>
                         <Accordion.Item eventKey="1" style={{backgroundColor: 'transparent'}}>
-                            <Accordion.Header>Tecnología Análisis y Desarrollo de
+                            <Accordion.Header style={{zIndex: '1'}}>Tecnología Análisis y Desarrollo de
                                 Sistemas de la Información -
                                 Servicio Nacional de Aprendizaje
                                 (SENA)</Accordion.Header>
                             <Accordion.Body style={{position: 'relative', backgroundColor: 'transparent' }}>
                                 <h3>Competencias</h3>
-                                <div className={'logo-sena'} >
 
-                                </div>
                                 <ul>
                                     <li>Especificar los requisitos necesarios para desarrollar el
                                         sistema de información de acuerdo con las necesidades

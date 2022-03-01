@@ -10,11 +10,14 @@ const Header = (props:any) => {
             <div className={'header-col-relative'}>
                 <img className={"img-background"} src={imgBackground} alt="background"/>
                 <Row >
+                    <Col md={5} className={'container-img-perfil-2'}>
+                        <div className={"img-perfil"}/>
+                    </Col>
                     <Col md={7}>
                         <h2>Esteban Molina</h2>
                         <h4>developer and analyst</h4>
                     </Col>
-                    <Col md={5}>
+                    <Col md={5} className={'container-img-perfil'}>
                             <div className={"img-perfil"}/>
                     </Col>
                 </Row>

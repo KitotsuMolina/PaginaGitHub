@@ -16,6 +16,8 @@
     align-items: center;
     justify-content: center;
 
+
+
     div[class^="col"]{
       text-align: center;
 
@@ -31,20 +33,36 @@
         font-style: italic;
         font-weight: 400;
       }
-
-      .img-perfil{
-        margin: 0 auto;
-        background-image: url("../../resources/img-perfil.jpg");
-        background-repeat: no-repeat;
-        background-size: 92% 97%;
-        background-position: 0em 0em;
-        width: 23em;
-        height: 20em;
-        clip-path: circle(40% at 50% 50%);
       }
+    .container{
+      &-img-perfil{
+        @media only screen  and (max-width: 767px)  {
+          display:none;
+        }
+
+      }
+      &-img-perfil-2{
+        display:none;
+        @media only screen  and (max-width: 767px)  {
+          display:inline-block;
+        }
+      }
+
+
     }
   }
 
 }
 
+
+.img-perfil{
+  margin: 0 auto;
+  background-image: url("../../resources/img-perfil.jpg");
+  background-repeat: no-repeat;
+  background-size: 92% 97%;
+  background-position: 0em 0em;
+  width: 23em;
+  height: 20em;
+  clip-path: circle(40% at 50% 50%);
+}
 
