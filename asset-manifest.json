@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PaginaGitHub/static/css/main.2c27067e.css",
-    "main.js": "/PaginaGitHub/static/js/main.df286a3d.js",
+    "main.css": "/PaginaGitHub/static/css/main.b058bc6d.css",
+    "main.js": "/PaginaGitHub/static/js/main.6ce1dce9.js",
     "static/js/787.d468ac15.chunk.js": "/PaginaGitHub/static/js/787.d468ac15.chunk.js",
     "static/media/header-img.jpg": "/PaginaGitHub/static/media/header-img.425639611935b8a5aace.jpg",
     "static/media/primeicons.svg": "/PaginaGitHub/static/media/primeicons.c6e2053303524e39530c.svg",
@@ -11,12 +11,12 @@
     "static/media/Sena_Logo.png": "/PaginaGitHub/static/media/Sena_Logo.39d8ca26d7803bbc10d3.png",
     "static/media/img-perfil.jpg": "/PaginaGitHub/static/media/img-perfil.7ed5405e7f8370784a90.jpg",
     "index.html": "/PaginaGitHub/index.html",
-    "main.2c27067e.css.map": "/PaginaGitHub/static/css/main.2c27067e.css.map",
-    "main.df286a3d.js.map": "/PaginaGitHub/static/js/main.df286a3d.js.map",
+    "main.b058bc6d.css.map": "/PaginaGitHub/static/css/main.b058bc6d.css.map",
+    "main.6ce1dce9.js.map": "/PaginaGitHub/static/js/main.6ce1dce9.js.map",
     "787.d468ac15.chunk.js.map": "/PaginaGitHub/static/js/787.d468ac15.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c27067e.css",
-    "static/js/main.df286a3d.js"
+    "static/css/main.b058bc6d.css",
+    "static/js/main.6ce1dce9.js"
   ]
 }
