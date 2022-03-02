@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PaginaGitHub/static/css/main.2082471e.css",
-    "main.js": "/PaginaGitHub/static/js/main.bc65667e.js",
+    "main.js": "/PaginaGitHub/static/js/main.d2fffc47.js",
     "static/js/787.d468ac15.chunk.js": "/PaginaGitHub/static/js/787.d468ac15.chunk.js",
     "static/media/header-img.jpg": "/PaginaGitHub/static/media/header-img.425639611935b8a5aace.jpg",
     "static/media/primeicons.svg": "/PaginaGitHub/static/media/primeicons.c6e2053303524e39530c.svg",
@@ -12,11 +12,11 @@
     "static/media/img-perfil.jpg": "/PaginaGitHub/static/media/img-perfil.7ed5405e7f8370784a90.jpg",
     "index.html": "/PaginaGitHub/index.html",
     "main.2082471e.css.map": "/PaginaGitHub/static/css/main.2082471e.css.map",
-    "main.bc65667e.js.map": "/PaginaGitHub/static/js/main.bc65667e.js.map",
+    "main.d2fffc47.js.map": "/PaginaGitHub/static/js/main.d2fffc47.js.map",
     "787.d468ac15.chunk.js.map": "/PaginaGitHub/static/js/787.d468ac15.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2082471e.css",
-    "static/js/main.bc65667e.js"
+    "static/js/main.d2fffc47.js"
   ]
 }
