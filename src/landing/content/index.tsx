@@ -49,12 +49,24 @@ const Content = () => {
                                             <li><i className={'pi pi-user'}/>Jhojan Esteban Molina Valencia</li>
                                             <li><i className={'pi pi-map-marker'}/>Cra 51 Oeste #4-37,
                                                 Cali, Valle del Cauca</li>
-                                            <li><i className={'pi pi-at'}/> jhojan.e.m.v.2018@gmail.com</li>
+                                            <li>
+                                                <a href="mailto:jhojan.e.m.v.2018@gmail.com?Subject=Interesado%20en%20Servicios" rel="noopener noreferrer" target="_blank">
+                                                    <i className={'pi pi-at'}/> jhojan.e.m.v.2018@gmail.com
+                                                </a>
+                                            </li>
                                             <li><i className={'pi pi-phone'}/>(+57) 300 7764 995</li>
-                                            <li><i className={'pi pi-linkedin'}/>jhojan-esteban-molina-
-                                                valencia-692a1b211</li>
-                                            <li><i className={'pi pi-paperclip'}/>Link a diplomas, titulos y
-                                                reconocimientos</li>
+                                            <li>
+                                                <a rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/jhojan-esteban-molina-valencia-692a1b211/" >
+                                                    <i className={'pi pi-linkedin'}/>Jhojan Esteban Molina Valencia
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a rel="noopener noreferrer" target="_blank" href="https://drive.google.com/file/d/1HFkmPeInbVhx5qvjZkRteFKS1RdTQtIw/view?usp=sharing">
+                                                    <i className={'pi pi-paperclip'}/>Link a diplomas, titulos y
+                                                    reconocimientos
+                                                </a>
+
+                                            </li>
                                         </ul>
                                     </Card.Text>
                                 </Card.Body>
@@ -193,13 +205,11 @@ const Content = () => {
                 </Col>
                 <Col md={12} id={'estudios'} style={{height: 'max-content', padding: '2em', textAlign: 'center'}}>
                     <h1>Estudios</h1>
-                    <Accordion defaultActiveKey="0" style={{textAlign: 'left',backgroundColor: 'transparent', position: 'relative'}}>
-                        <div className={'logo-sena'} >
-                        </div>
-                        <Accordion.Item eventKey="0" style={{backgroundColor: 'transparent'}}>
+                    <Accordion defaultActiveKey="0" style={{textAlign: 'left', position: 'relative'}}>
+                        <Accordion.Item eventKey="0" >
                             <Accordion.Header style={{zIndex: '1'}}>Técnico en Programación - Servicio
                                 Nacional de Aprendizaje (SENA)</Accordion.Header>
-                            <Accordion.Body style={{position: 'relative', backgroundColor: 'transparent' }}>
+                            <Accordion.Body style={{position: 'relative' }}>
                                 <h3>Competencias</h3>
 
                                 <ul>
@@ -227,12 +237,12 @@ const Content = () => {
                                 </ul>
                             </Accordion.Body>
                         </Accordion.Item>
-                        <Accordion.Item eventKey="1" style={{backgroundColor: 'transparent'}}>
+                        <Accordion.Item eventKey="1" >
                             <Accordion.Header style={{zIndex: '1'}}>Tecnología Análisis y Desarrollo de
                                 Sistemas de la Información -
                                 Servicio Nacional de Aprendizaje
                                 (SENA)</Accordion.Header>
-                            <Accordion.Body style={{position: 'relative', backgroundColor: 'transparent' }}>
+                            <Accordion.Body style={{position: 'relative'}}>
                                 <h3>Competencias</h3>
 
                                 <ul>
