@@ -40,7 +40,7 @@ const Content = () => {
             <Row style={{height: 'max-content'}}>
                 <Col md={12} id={'perfil_profesional'} className={'perfil_profesional'} style={{height: 'max-content', padding: '2em'}}>
                     <Row>
-                        <Col md={6} sm={12}>
+                        <Col md={12} sm={12}>
                             <Card className={'card-datos_contacto'}>
                                 <Card.Body>
                                     <Card.Title>Datos Personales</Card.Title>
@@ -60,44 +60,45 @@ const Content = () => {
                                 </Card.Body>
                             </Card>
                         </Col>
-                        <Col md={6} sm={12}>
-                            <Card  className={'card-perfil_profesional'}>
-                                <Card.Body>
-                                    <Card.Title>Perfil Profesional</Card.Title>
-                                    <Card.Text>
-                                        Cualificado del Programa de
-                                        Formación Técnico en
-                                        programación de software,
-                                        Tecnología en análisis y desarrollo
-                                        de software, manejo de Office,
-                                        páginas web (creación de página),
-                                        soporte técnico, instalación y
-                                        mantenimiento de programas,
-                                        sistemas operativos(Windows,
-                                        Linux, Android), capacitado para trabajar en equipo
-                                        direccionado a uso de metodologías ágiles
-                                        enfocado en el uso de SCRUM, con capacidad de absorción de
-                                        conocimientos en capacidad de aprender conocimientos necesarios
-                                        para el proceso de desarrollo.
-                                    </Card.Text>
-                                </Card.Body>
-                            </Card>
-                        </Col>
                         <Col md={12} sm={12}>
                             <Card className={'card-habilidades'}>
                                 <Card.Body>
-                                    <Card.Title>Habilidades</Card.Title>
-                                    <Card.Text>
-                                        <ul>
-                                            <li><i className={'pi pi-caret-right'}/>Gran rendimiento bajo presión</li>
-                                            <li><i className={'pi pi-caret-right'}/>Excepcionales dotes comunicativas y compañerismo</li>
-                                            <li><i className={'pi pi-caret-right'}/>Buen compañero y con capacidad de trabajo independiente</li>
-                                            <li><i className={'pi pi-caret-right'}/>Facilidad para seguir instrucciones y generar resultados de
-                                                calidad</li>
-                                            <li><i className={'pi pi-caret-right'}/>Curva de aprendizaje muy corta, rápida absorción de
-                                                conocimiento</li>
-                                        </ul>
-                                    </Card.Text>
+                                    <Row>
+                                        <Col lg={6} md={12} sm={12} style={{marginTop:'1em'}}>
+                                            <Card.Title>Perfil Profesional</Card.Title>
+                                            <Card.Text style={{width: '26em'}}>
+                                                Cualificado del Programa de
+                                                Formación Técnico en
+                                                programación de software,
+                                                Tecnología en análisis y desarrollo
+                                                de software, manejo de Office,
+                                                páginas web (creación de página),
+                                                soporte técnico, instalación y
+                                                mantenimiento de programas,
+                                                sistemas operativos(Windows,
+                                                Linux, Android), capacitado para trabajar en equipo
+                                                direccionado a uso de metodologías ágiles
+                                                enfocado en el uso de SCRUM, con capacidad de absorción de
+                                                conocimientos en capacidad de aprender conocimientos necesarios
+                                                para el proceso de desarrollo.
+                                            </Card.Text></Col>
+                                        <Col lg={6} md={12} sm={12} style={{marginTop:'1em'}}>
+                                            <Card.Title>Habilidades</Card.Title>
+                                            <Card.Text style={{width: '26em'}}>
+                                                <ul>
+                                                    <li><i className={'pi pi-caret-right'}/>Gran rendimiento bajo presión</li>
+                                                    <li><i className={'pi pi-caret-right'}/>Excepcionales dotes comunicativas y compañerismo</li>
+                                                    <li><i className={'pi pi-caret-right'}/>Buen compañero y con capacidad de trabajo independiente</li>
+                                                    <li><i className={'pi pi-caret-right'}/>Facilidad para seguir instrucciones y generar resultados de
+                                                        calidad</li>
+                                                    <li><i className={'pi pi-caret-right'}/>Curva de aprendizaje muy corta, rápida absorción de
+                                                        conocimiento</li>
+                                                </ul>
+                                            </Card.Text>
+                                        </Col>
+
+                                    </Row>
+
                                 </Card.Body>
                             </Card>
                         </Col>

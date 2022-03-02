@@ -1,7 +1,7 @@
 .header-col-relative{
   @include relative-container;
   height: min-content;
-  width: calc(100vw - .7em);
+  width: calc(100vw);
   overflow:hidden;
 
   .img-background{

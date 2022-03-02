@@ -2,7 +2,6 @@ import React from 'react';
 import {Col, Row} from "react-bootstrap";
 import Header from "./header";
 import Content from "./content";
-import Footer from "./footer";
 
 const Landing = () => {
 
@@ -12,8 +11,8 @@ const Landing = () => {
 
     return (
         <>
-                <Row style={{height:'max-content', width:'100vw'}}>
-                    <Col md={12} id={'home'}>
+                <Row style={{height:'max-content', width:'100vw', marginRight: '0', marginLeft: '0'}}>
+                    <Col md={12} id={'home'} >
                         <Header switchClass={switchClass}/>
                     </Col>
                     <Col md={12} style={{height: 'max-content'}}>
