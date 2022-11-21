@@ -1,0 +1,70 @@
+.div-projects{
+  height: 20em;
+  .logo-one{
+    position: absolute;
+    width: 11em;
+    top: 2em;
+    left: 15em;
+    .img-react{
+      width: 100%;
+    }
+    @media only screen  and (max-width: 1400px)  {
+      left:13% !important;
+    }
+  }
+  .logo-two{
+    position: absolute;
+    width: 11em;
+    bottom: 3em;
+    left: 23em;
+    .img-firebase{
+      width: 100%;
+    }
+    @media only screen  and (max-width: 1400px)  {
+      left:22% !important;
+    }
+  }
+  .vector-one{
+    position: absolute;
+    width: 42em;
+    right: -13em;
+    filter: opacity(0.7) hue-rotate(348deg);
+    .img{
+      width: 100%;
+    }
+  }
+  .vector-two{
+    position: absolute;
+    width: 42em;
+    left: -13em;
+    top: -9em;
+    transform: rotate(233deg);
+    filter: opacity(0.7) hue-rotate(348deg);
+    .img{
+      width: 100%;
+    }
+  }
+  .texto-project{
+    height: 13em;
+    width: 50%;
+    position: absolute;
+    right: 8.6em;
+    z-index: 2;
+    font-style: oblique;
+    font-weight: bolder;
+    text-align: initial;
+    font-size: x-large;
+    @media only screen  and (max-width: 1400px)  {
+      right: 7% !important;
+    }
+    h2{
+      margin: .3em;
+    }
+    p{
+
+    }
+    a{
+      text-decoration: none;
+    }
+  }
+}

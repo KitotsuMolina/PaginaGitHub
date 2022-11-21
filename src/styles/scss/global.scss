@@ -11,9 +11,17 @@ body {
   font-family: 'ZCOOL QingKe HuangYou', cursive;
   color: $BLACK;
   background-image: url(../../resources/fondo.jpg);
-  background-repeat:no-repeat;
+  background-repeat:repeat;
   background-attachment: fixed;
-  background-size: cover;
+}
+.carousel-indicators {
+  button{
+    background-color: #1fbec4 !important;
+  }
+}
+
+.carousel-control-prev, .carousel-control-next{
+  color: #1fbec4;
 }
 
 ::-webkit-scrollbar {

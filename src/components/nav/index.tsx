@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react';
 import classNames from 'classnames'
 import {LinksList} from "@interfaces/const";
 import {Col, Row} from "react-bootstrap";
+import LogoBlanco from "../../resources/Logo_Gato_Blanco.png";
 
 let timeout: any;
 let scroll = 0;
@@ -159,7 +160,7 @@ const NavPage = (props:any) => {
                     </nav>
                     <div className={'logo'}>
                         <div className={'hijo'}>
-                            {logoBlackCat}
+                            <img style={{width:'52%'}} src={LogoBlanco} alt="logo"/>
                         </div>
                     </div>
                 </div>

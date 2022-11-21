@@ -1,8 +1,12 @@
 .header-col-relative{
   @include relative-container;
   height: min-content;
-  width: calc(100vw);
+  width: calc(101vw);
   overflow:hidden;
+  box-shadow: 1px 3px 16px -5px rgb(0 0 0 / 76%);
+  z-index:0;
+  margin-top: -3px;
+  margin-left: -2px;
 
   .img-background{
     z-index: -1;
